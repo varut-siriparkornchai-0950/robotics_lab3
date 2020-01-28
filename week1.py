@@ -7,3 +7,6 @@ def alphabet_position(sentence):
     return print(contain.strip())                                  # cut blank first and last letter
 
 alphabet_position(input("Fill your sentence : "))
+
+
+
