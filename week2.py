@@ -5,4 +5,5 @@ def validate_pin(pin):
     else:
         print(False)
 
-validate_pin("123456")
+validate_pin(pin)
+
