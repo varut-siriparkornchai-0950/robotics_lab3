@@ -4,6 +4,6 @@ def alphabet_position(sentence):
     for a in sentence:
         if a.isalpha() == True:
             contain += (str(ord(a)-96))+(" ")                    
-    print(contain)
+    return print(contain.strip())                                  # cut blank first and last letter
 
 alphabet_position(input("Fill your sentence : "))
