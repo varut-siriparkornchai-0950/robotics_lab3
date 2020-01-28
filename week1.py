@@ -6,7 +6,8 @@ def alphabet_position(sentence):
             contain += (str(ord(a)-96))+(" ")                    
     return print(contain.strip())                                  # cut blank first and last letter
 
-alphabet_position(input("Fill your sentence : "))
+senten = input("Fill your sentence : ")
+alphabet_position(senten)
 
 
 
