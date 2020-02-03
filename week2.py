@@ -12,7 +12,7 @@ def validate_pin(pin):
 
 
 print("here")
-validate_pin(input(''))
+validate_pin(m)
 
 
 
