@@ -11,8 +11,4 @@ def validate_pin(pin):
     print(False)
 
 
-print("here")
-validate_pin(m)
-
-
 
